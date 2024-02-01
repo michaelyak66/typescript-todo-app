@@ -54,7 +54,7 @@ function addListItem(task: Task): void {
   label.style.marginBottom = "5px"; // Add some space between labels
   label.style.cursor = "pointer"; // Add a pointer cursor for interactivity
   
-  // Create a checkbox element for task completion status
+  // Create a checkbox element for task completion statuss
   const checkbox = document.createElement("input");
   checkbox.type = "checkbox";
   checkbox.style.cursor = "pointer"; // Add a pointer cursor for interactivity
